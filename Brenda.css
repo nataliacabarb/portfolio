@@ -1,0 +1,419 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 8%;
+    padding-right: 7%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+span{
+    color: #f9004d;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color:whitesmoke;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+   
+}
+h3{
+    color:whitesmoke;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    background-color: #858585;
+    opacity: 0.8;
+    border: 2px;
+    text-align: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display:inline-block;
+    width:100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 40px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.about img{
+    border-radius: 50%;
+    border: 2px solid rgba(245, 133, 59, 0.8)
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    height: 100%;
+    background-image: url(../img/background2.jpg);
+    background-position: center;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: rgb(0, 0, 0);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    text-decoration: solid;
+    background-color: #000;
+    opacity: 0.8;
+    text-align: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+   
+    }
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    background-color: #000000;
+    opacity: 0.8;
+    text-decoration: double;
+    border-radius: 10%;
+    
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration:wavy;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: black;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.service{
+    background-image: url(../img/rainha.jpeg);
+    width: 100%;
+    padding: 100px 0px;
+    background-position: center;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0.8;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:#f9004d;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration:wavy;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: black;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.software-skills p{
+    color: #f9004d;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 25px;   
+}
+body
+{
+    background-image: url(../img/deitadinha.jpeg);
+    text-transform: uppercase;
+}
+h1
+{
+    text-align: center;
+}
+h3
+{
+    margin: 5px;
+}
+.skill
+{
+    width: 500px;
+    margin: 60px auto;
+    color:#fff;
+    padding: 20px;
+    background: #333;
+    opacity: 0.9;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.skill li
+{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar
+{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover
+{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px rgba(0,0,0,0.22);
+}
+
+.bar span
+{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%,rgba(252, 103, 103,1)100%);
+}
+.photohop
+{
+    width:95%;
+    animation: photoshop 3%;
+}
+.clipstudio
+{
+    width:85%;
+    animation: clipstudio 3%;
+}
+.illustrator
+{
+    width:90%;
+    animation: illustrator 3%;
+}
+.krita
+{
+    width:95%;
+    animation: krita 3%;
+}
+.tyranoBuilder
+{
+    width:70%;
+    animation: tyranoBuilder 3%;
+}
+.unity
+{
+    width:30%;
+    animation: unity 3%;
+}
+.zbrush
+{
+    width:35%;
+    animation: zbrush 3%;
+}
+.blender
+{
+    width: 25%;
+    animation: blender 3%;
+}
+@keyframes photoshop{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes clipstudio
+{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes illustrator
+{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes krita
+{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes tyranoBuilder
+{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes unity
+{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes zbrush
+{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 35%;
+    }
+}
+@keyframes blender
+{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 25%;
+    }
+}  
+
